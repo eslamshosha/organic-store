@@ -843,7 +843,7 @@ html[dir="rtl"] .tel-link i {
   border-style: solid;
   border-color: transparent rgba(0, 0, 0, 0.8) transparent transparent;
 }
-.tags-item .tooltiptext::after{
+html[dir="ltr"] .tags-item .tooltiptext::after {
   transform: scaleX(-1);
 }
 .tags-item:hover .tooltiptext {
@@ -2037,13 +2037,14 @@ html[dir="rtl"] .footer-accordion.active:after {
   .lang-section .dropdown-content::before {
     display: none;
   }
-  .tel-link{
+  .tel-link {
     padding: 10px;
   }
-  .tel-link i{
+  .tel-link i {
     color: var(--main-hover);
   }
-  .tel-link:hover, .tel-link:focus{
+  .tel-link:hover,
+  .tel-link:focus {
     color: var(--main-color);
   }
   /*       header                    */
@@ -2500,7 +2501,7 @@ html[dir="rtl"] .top-header .cats-dispaly li {
     height: auto;
     padding: 0;
   }
-  nav .slide-menu{
+  nav .slide-menu {
     padding: 10px 10px;
   }
   .btn-div > .menu-name:hover {
