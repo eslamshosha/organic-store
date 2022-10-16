@@ -1104,7 +1104,7 @@ html[dir="ltr"] .tags-item .tooltiptext::after {
 }
 @media (max-width: 767px) {
   .product-section .product-title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     flex-wrap: wrap;
   }
   .product-section .product-center {
@@ -1128,7 +1128,7 @@ html[dir="ltr"] .tags-item .tooltiptext::after {
     font-size: 14px;
   }
   .product-slider {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .tags-item {
     width: 22px;
@@ -1590,7 +1590,7 @@ footer {
 }
 .footer-logo {
   max-width: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .first-footer {
   margin-bottom: 65px;
@@ -1714,7 +1714,7 @@ a.social-link:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .cr-cont .cr-img:first-child {
   margin-inline-end: 15px;
@@ -1772,7 +1772,7 @@ a.social-link:hover {
   text-transform: capitalize;
   font-size: 12px;
   font-weight: 400;
-  color: var(--black-color);
+  color: var(--main-color);
   width: 33.3333333%;
 }
 .design-text .taswak-img {
@@ -2078,13 +2078,15 @@ html[dir="rtl"] .footer-accordion.active:after {
   } */
   .tel-link {
     padding: 10px;
+    color: var(--main-color);
+    justify-content: center;
   }
   .tel-link i {
     color: var(--main-hover);
   }
   .tel-link:hover,
   .tel-link:focus {
-    color: var(--main-color);
+    color: var(--main-hover);
   }
   /*       header                    */
 
@@ -2114,7 +2116,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     padding-top: 40px;
   }
   .foot-header {
-    font-size: 16px;
+    font-size: 14px;
   }
   .news-letter .news-span {
     text-align: start;
